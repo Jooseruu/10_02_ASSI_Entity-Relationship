@@ -17,7 +17,7 @@ Este repositorio contiene el diagrama del Colegio Borja Moll. El diagrama incluy
 - Participación total y parcial.
 
 ### Entidades
-Tenemos varias entidades representadas en tablas como són Curso, Estudiante, telefonos(atributos multievaluados), Aula, Asignatura, Profesor, Calificación(entidad debil)
+Tenemos varias entidades representadas en tablas como són Curso, Estudiante, telefonos(atributos multivalorados), Aula, Asignatura, Profesor, Calificación(entidad debil)
 
 ### Relaciones
 1. **Estudiante - Curso**: La relación entre Estudiante y Curso es de tipo muchos a muchos, lo que significa que un Estudiante puede estar matriculado en uno o varios Cursos, y un Curso puede tener varios Estudiantes matriculados. La participación de ambas entidades en esta relación es total, ya que todos los estudiantes deben estar matriculados en un curso y todos los cursos deben tener al menos un estudiante.
